@@ -1,0 +1,14 @@
+img {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+  background-color: navy;
+  color: tomato;
+}
+
+h1, p {
+  text-align: center;
+}
