@@ -1,7 +1,25 @@
-main {
-    background-color: whitesmoke;
+:root {
+  --background1: #264653ff;
+  --background2: #2a9d8fff;
+  --background3: #e9c46aff;
+  --secondary1: #f4a261ff;
+  --secondary2: #e76f51ff;
+  --highlight: #219ebc;
 }
 
+main {
+    background-color: var(--background2);
+}
+
+body {
+  background-color: var(--background2);
+}
+
+.me {
+  font-size: 100px;
+  text-align: left;
+  padding: 10%;
+}
 
 @media screen and (max-width: 750px) {
     .info {
