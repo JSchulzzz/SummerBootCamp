@@ -11,12 +11,8 @@ main {
     background-color: var(--background2);
 }
 
-body {
-  background-color: var(--background2);
-}
-
 .me {
-  font-size: 100px;
+  font-size: 50px;
   text-align: left;
   padding: 10%;
 }
@@ -25,4 +21,8 @@ body {
     .info {
         padding-top: 100px;
     }
+}
+
+p {
+  color: black;
 }
